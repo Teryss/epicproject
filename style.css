@@ -72,8 +72,7 @@ nav a:hover, nav a:focus, nav a.active {
 }
 
 .example {
-    flex: 1;
-    min-width: 300px; 
+    flex: 1 1 300px; /* grow, shrink, base width */
     background: #fdfdfd;
     padding: 15px;
     border: 1px solid #ddd;
@@ -82,14 +81,13 @@ nav a:hover, nav a:focus, nav a.active {
 
 .example img {
     width: 100%;
-    height: 350px; /* Wymuszamy równą wysokość dla obu klocków */
-    object-fit: contain; /* Skaluje obrazek tak, by w całości zmieścił się w ramce */
-    background-color: #ebebeb; /* Dodaje fajne, delikatne tło w miejscach, gdzie obrazek nie wypełnia ramki */
+    height: 350px;
+    object-fit: contain;
+    background-color: #ebebeb;
     border: 1px solid #ccc;
     border-radius: 5px;
     display: block;
     margin-bottom: 15px;
-
 }
 
 .description {
