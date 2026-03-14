@@ -1,3 +1,6 @@
+Zadanie 1
+Grupa: Wdowiarek, Tkacz
+Źródło:
 https://www.nngroup.com/articles/ten-usability-heuristics/
 
 > Molich, R., and Nielsen, J. (1990). Improving a human-computer dialogue, Communications of the ACM 33, 3 (March), 338-348.
