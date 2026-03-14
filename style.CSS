@@ -1,0 +1,105 @@
+/* Baza i reset */
+html {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+/* Elastyczny kontener główny (max-width i margin auto - wymóg z instrukcji) */
+main, header, footer {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Stylizacja nawigacji */
+header {
+    background-color: #2c3e50;
+    color: white;
+    border-radius: 0 0 10px 10px;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+/* Reakcja na najechanie i aktywny link */
+nav a:hover, nav a:focus, nav a.active {
+    background-color: #3498db;
+}
+
+/* Sekcje i klocki z heurystykami */
+.hero, .heuristic-block {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.translations {
+    background-color: #e8f4f8;
+    padding: 15px;
+    border-left: 4px solid #3498db;
+    margin-bottom: 30px;
+}
+
+/* Siatka dla przykładów (RWD) */
+.examples-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.example {
+    flex: 1;
+    min-width: 300px; 
+    background: #fdfdfd;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.example img {
+    width: 100%;
+    height: 350px; /* Wymuszamy równą wysokość dla obu klocków */
+    object-fit: contain; /* Skaluje obrazek tak, by w całości zmieścił się w ramce */
+    background-color: #ebebeb; /* Dodaje fajne, delikatne tło w miejscach, gdzie obrazek nie wypełnia ramki */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: block;
+    margin-bottom: 15px;
+
+}
+
+.description {
+    font-size: 0.9em;
+    color: #555;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 0.8em;
+    color: #777;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}

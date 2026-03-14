@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heurystyka 9 - Rozpoznawanie błędów</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>10 Heurystyk Jakoba Nielsena</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Strona Główna</a></li>
+                <li><a href="heurystyka9.html" class="active">9. Rozpoznawanie błędów</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="heuristic-block">
+            <h2>9. Pomóż użytkownikom rozpoznać, zdiagnozować i naprawić błędy</h2>
+            
+            <div class="translations">
+                <p><strong>EN:</strong> Error messages should be expressed in plain language (no error codes), precisely indicate the problem, and constructively suggest a solution.</p>
+                <p><strong>PL:</strong> Komunikaty o błędach powinny być wyrażone w prostym języku (bez kodów błędów), precyzyjnie wskazywać problem i konstruktywnie sugerować rozwiązanie.</p>
+            </div>
+
+            <div class="examples-grid">
+                <div class="example">
+                    <h3>Przykład - Strona WWW (Allegro)</h3>
+                    <img src="web-error.png" alt="Błąd formularza na stronie Allegro">
+                    <p class="description"><strong>Uzasadnienie:</strong> Formularz rejestracji Allegro to idealny przykład 9. heurystyki. Precyzyjnie wskazuje miejsce błędu (czerwona ramka) i zamiast niezrozumiałego komunikatu systemu używa prostego języka. Od razu sugeruje też konstruktywne rozwiązanie – dynamicznie odznacza spełnione wymogi (zielony ptaszek przy cyfrze) i pokazuje na czerwono, co jeszcze trzeba dodać do hasła (wielka/mała litera, min. 8 znaków).</p>
+                </div>
+
+                <div class="example">
+                    <h3>Przykład - Aplikacja Mobilna</h3>
+                    <img src="mobile-error.jpg" alt="Brak połączenia w aplikacji mobilnej">
+                    <p class="description"><strong>Uzasadnienie:</strong> Aplikacja nie zamyka się nieoczekiwanie przy braku sieci. Zamiast tego wyświetla przyjazny komunikat o braku połączenia, wyjaśniając powód błędu. Udostępnia również przycisk "Spróbuj ponownie", co pozwala użytkownikowi szybko wyjść z problematycznej sytuacji i odświeżyć widok.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Projekt: Analiza Heurystyczna - Akademia WIT</p>
+    </footer>
+
+</body>
+</html>
