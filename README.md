@@ -1,5 +1,7 @@
 Zadanie 1
+
 Grupa: Wdowiarek, Tkacz
+
 Źródło:
 https://www.nngroup.com/articles/ten-usability-heuristics/
 
