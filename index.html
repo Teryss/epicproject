@@ -12,16 +12,16 @@
         <nav>
             <ul>
                 <li><a href="index.html" class="active">Strona Główna</a></li>
-                <li><a href="heurystyka9.html">1</a></li>
-                <li><a href="heurystyka9.html">2</a></li>
-                <li><a href="heurystyka9.html">3</a></li>
-                <li><a href="heurystyka9.html">4</a></li>
-                <li><a href="heurystyka9.html">5</a></li>
-                <li><a href="heurystyka9.html">6</a></li>
-                <li><a href="heurystyka9.html">7</a></li>
-                <li><a href="heurystyka9.html">8</a></li>
+                <li><a href="heurystyka1.html">1</a></li>
+                <li><a href="heurystyka2.html">2</a></li>
+                <li><a href="heurystyka3.html">3</a></li>
+                <li><a href="heurystyka4.html">4</a></li>
+                <li><a href="heurystyka5.html">5</a></li>
+                <li><a href="heurystyka6.html">6</a></li>
+                <li><a href="heurystyka7.html">7</a></li>
+                <li><a href="heurystyka8.html">8</a></li>
                 <li><a href="heurystyka9.html">9</a></li>
-                <li><a href="heurystyka9.html">10</a></li>
+                <li><a href="heurystyka10.html">10</a></li>
             </ul>
         </nav>
     </header>
@@ -40,7 +40,7 @@
             <p>Jakob Nielsen to jeden z najważniejszych badaczy w dziedzinie użyteczności (usability) i projektowania doświadczeń użytkownika (UX). Urodził się w Danii w 1957 roku i od lat 90. jest uznawany za pioniera badań nad tym, jak ludzie korzystają z komputerów i stron internetowych. Uzyskał doktorat z interakcji człowiek–komputer (HCI) na Uniwersytecie Technicznym w Danii.</p>
             <p>Na początku kariery pracował w firmie Sun Microsystems jako badacz interfejsów użytkownika. W 1998 roku współzałożył firmę konsultingową Nielsen Norman Group razem z ekspertem UX Donem Normanem, która zajmuje się badaniami, szkoleniami i doradztwem w zakresie projektowania produktów cyfrowych.</p>
             <p>Najbardziej znany jest z popularyzowania metod oceny użyteczności, takich jak testy z użytkownikami i analiza heurystyczna. W 1994 roku opracował zestaw 10 heurystyk użyteczności – ogólnych zasad projektowania interfejsów pomagających wykrywać typowe problemy w systemach cyfrowych.</p>
-            <p>Jest także autorem licznych publikacji o projektowaniu interfejsów, m.in. książek Usability Engineering oraz Designing Web Usability. Jego heurystyki są dziś powszechnie stosowane przez projektantów UX i zespoły projektowe na całym świecie do oceny jakości interfejsów.</p>
+            <p>Jest także autorem licznych publikacji o projektowaniu interfejsów, m.in. książek Usability Engineering oraz Designing Web Usability. His heurystyki są dziś powszechnie stosowane przez projektantów UX i zespoły projektowe na całym świecie do oceny jakości interfejsów.</p>
         </section>
     </main>
 
@@ -48,5 +48,24 @@
         <p>&copy; 2026 Projekt: Analiza Heurystyczna - Akademia WIT</p>
     </footer>
 
+    <button onclick="topFunction()" id="backToTop" title="Wróć na górę">&#8593;</button>
+
+    <script>
+        let mybutton = document.getElementById("backToTop");
+
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        function topFunction() {
+            window.scrollTo({top: 0, behavior: 'smooth'});
+        }
+    </script>
 </body>
 </html>
