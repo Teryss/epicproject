@@ -103,3 +103,51 @@ footer {
     border-top: 1px solid #ddd;
     padding-top: 20px;
 }
+
+/* =========================================
+   POPRAWKI RWD I BACK TO TOP
+   ========================================= */
+
+/* Zmniejszenie marginesów/paddingów na telefonach */
+@media (max-width: 768px) {
+    main, header, footer {
+        padding: 10px;
+    }
+    
+    .hero, .heuristic-block {
+        padding: 15px;
+    }
+    
+    nav ul {
+        gap: 10px;
+        justify-content: center;
+    }
+}
+
+/* Przycisk Back to Top */
+#backToTop {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    background-color: #2c3e50;
+    color: white;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+    transition: background-color 0.3s, transform 0.2s;
+    line-height: 50px;
+    text-align: center;
+}
+
+#backToTop:hover {
+    background-color: #3498db;
+    transform: scale(1.05);
+}
